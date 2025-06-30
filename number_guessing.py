@@ -2,8 +2,8 @@ import random
 
 print("Welcome to our Number Guessing Game : ")
 
-low=int(input("Enter Lower Boundary"))
-High=int(input("Enter Higher Boundary"))
+low=int(input("Enter Lower Boundary: "))
+High=int(input("Enter Higher Boundary: "))
 
 
 num=random.randint(low,High)
